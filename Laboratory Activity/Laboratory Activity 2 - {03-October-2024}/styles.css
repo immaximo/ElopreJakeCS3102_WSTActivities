@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #B0C4DE; 
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    text-align: center; 
+    margin: 70px 0 10px; 
+}
+
+.header h1 {
+    color: #4682B4; 
+    font-size: 36px; 
+    font-weight: bold;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: #D6EAF8;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.daily-reminder {
+    text-align: center; 
+    background-color: #4682B4; 
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+.daily-reminder h2 {
+    color: #FFFFFF; 
+    font-size: 36px;
+}
+
+.daily-reminder p {
+    color: #D6EAF8; 
+    font-size: 18px;
+}
+
+.image-grid {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.image-grid img {
+    width: 15%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    margin-top: 20px;
+}
+
+.box {
+    flex: 1;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.box:last-child {
+    margin-right: 0; 
+}
+
+.goals-section h2 {
+    color: #5DADE2; 
+    font-size: 24px;
+}
+
+.goals-section ul {
+    list-style: none;
+    color: #2874A6; 
+    font-size: 18px;
+}
+
+.goals-section li {
+    margin: 10px 0;
+}
+
+.quote {
+    font-size: 24px;
+    color: #FFFFFF; 
+    background-image: url('assets/img6.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    min-height: 200px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 10px;
+    padding: 20px; 
+}
+
+.quote p {
+    position: relative;
+    z-index: 1;
+}
+
+
+.image-only {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F9FA; 
+    border-radius: 10px;
+}
+
+.image-only img {
+    max-width: 100%; 
+    height: auto; 
+}
