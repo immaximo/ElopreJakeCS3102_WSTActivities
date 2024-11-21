@@ -1,0 +1,47 @@
+html {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h2 {
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 90%; 
+    max-width: 600px; 
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    resize: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+textarea:focus {
+    outline: none;
+}
+
+div {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #555;
+    width: 90%; 
+    max-width: 600px; 
+    text-align: left; 
+}
